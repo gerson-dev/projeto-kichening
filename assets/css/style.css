@@ -1,0 +1,252 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    font-size: 20px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../image/bg-body.png);
+    background-size
+    width: 100%;
+
+    height: ;
+
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    width:; 
+    max-width:100%; 
+
+} 
+header img{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    width: 180px;
+    border-radius: 90px;
+    border: 1px solid #363636;
+} 
+  
+nav{
+    margin-bottom: 20px;
+    
+    
+    
+    
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+nav ul li{
+    list-style: none;
+    padding:  15px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    
+}
+nav ul div{
+    background-color:#363636 ;
+    width: 180px;
+    height: 50px;
+    color: white;
+    margin: 10px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+
+}
+nav ul div:hover{
+    background-color:rgb(145, 4, 4);
+
+}
+
+main section div{
+    background-image: url(../image/img-banner.jpg);
+    width: 100%;
+    max-width: 1180px;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    margin-bottom: 30px;
+    
+
+}
+article{
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 393,33;
+    margin-bottom: 30px;
+
+}
+article p{
+    font-size: 13px;
+}
+
+.widget{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: center;
+    margin: auto;
+}
+.widget2{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: center;
+    margin: auto;
+}
+
+.widget article div{
+    width: 393,33px;
+    height: 250px;
+    background-color: red;
+    margin: 10px;
+}
+.widget article h3{
+    margin-left:10px;
+}
+.widget article p{
+    margin-left: 10px;
+}
+
+
+
+.widget2 article div{
+    width: 393,33px;
+    height: 250px;
+    background-color: red;
+    margin: 10px;
+}
+.widget2 article h3{
+    margin-left:10px;
+}
+.widget2 article p{
+    margin-left: 10px;
+}
+.widget article .div1{
+    background-image: url(../image/img-pdto-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.widget article .div2{
+    background-image: url(../image/img-pdto-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.widget article .div3{
+    background-image: url(../image/img-pdto-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.widget2 article .div4{
+    background-image: url(../image/img-pdto-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.widget2 article .div5{
+    background-image: url(../image/img-pdto-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.widget2 article .div6{
+    background-image: url(../image/img-pdto-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+button{
+    margin-left: 10px;
+    background-color: #363636;
+    color: white;
+    padding: 5px;
+    border: none;
+}
+button:hover{
+    background-color: rgb(145, 4, 4);
+}
+button:hover{
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    max-width: 1180px;
+    background-color:rgb(145, 4, 4);
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+footer nav ul{
+    padding-top: 25px;
+}
+footer nav ul li{
+    list-style: none;
+    text-transform: none;
+}
+footer nav ul li a{
+    text-decoration: none;
+    border-right: 1px solid white;
+    color: white;
+    padding-right: 13px;
+    
+
+}
+@media(max-width:769px){
+    nav ul div{
+        width: 180px;
+        height: 45px;
+        
+    } 
+    nav ul li a{
+        font-size: 10px;
+        font-weight: 
+    
+    }
+
+    
+
+    footer{
+        width: 100%;
+        max-width: 1180px;
+        background-color:rgb(145, 4, 4);
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        margin: auto;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        
+    }
+    
+    footer nav ul li a{
+        font-size: 13px;
+        
+    
+    }
+
+}
